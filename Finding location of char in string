@@ -1,0 +1,9 @@
+public static long solution(String s) {
+	char [] ch = s.toCharArray();
+	for (int i = 0; i < ch.length; i++) {
+		if(ch[i]=='s') {
+			return i;
+		}
+	}
+	return 0;
+}
